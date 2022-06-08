@@ -1,0 +1,196 @@
+.btn{
+    width: 128px;
+    border-radius: 22px;
+    text-align: center;
+    padding-top: 8px;padding-bottom: 8px;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.btn2{
+    border-radius: 27px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 136px;
+    background-color:$pri-color;    
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+pz-ab{
+    position: absolute;
+}
+.d-no{
+    display: none;
+}
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.jcsb{
+   
+    justify-content: space-between;
+}
+.jcse{
+    justify-content: space-evenly
+}
+
+.jcc{
+  
+    justify-content: center;
+}
+
+.jcfe{   
+    justify-content: flex-end;
+}
+.flex-column {
+
+    flex-direction: column;
+}
+
+.a-items-c{
+    align-items: center;
+}
+.text-c{
+    text-align: center;
+}
+.px-8{
+    padding-right: 8px;
+    padding-left: 8px;
+ }
+ .px-16{
+     padding-right: 16px;
+     padding-left: 16px;
+ }
+ .ptb-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+ .ptb-24{
+     padding-top: 24px;
+     padding-bottom: 24px;
+ }
+ .py-16{
+     padding-top: 16px;
+     padding-bottom: 16px;
+ }
+ .py-24{
+     padding-top: 24px;
+     padding-bottom: 24px;
+ }
+ .p-32{
+     padding: 32px;
+ }
+ .pb-3{
+     padding-bottom: 24px;
+ }
+
+ .mb-280{
+    margin-bottom: 280px;
+}
+
+.mb-217{
+    margin-bottom: 217px;
+}
+
+.mb-134{
+    margin-bottom: 134px;
+}
+.mb-116{
+    margin-bottom: 116px;
+}
+
+.mb-104{
+    margin-bottom: 104px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+.mb-92{
+    margin-bottom: 92px;
+}
+.mb-94{
+    margin-bottom: 94px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.mt-24{
+    margin-top: 24px;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.mt-260{
+    margin-top: 260px;
+}
+
+.mx-21{
+    margin-right: 21px;
+    margin-left: 21px;
+}
+.mr-2{
+    margin-right: 16px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mr-13{
+    margin-right: 13px;
+}
+.mr-16{
+    margin-right: 16px;
+}
+
+
+.mr-84{
+    margin-right: 84px;
+}
+
+.mr-149{
+    margin-right: 149px;
+}
+.ml-89{
+    margin-left: 89px;
+
+}
+.ml-159{
+    margin-left: 159px;
+
+}
+
+.sub-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;}
+
+
