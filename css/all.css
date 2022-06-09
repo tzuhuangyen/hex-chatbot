@@ -768,7 +768,7 @@ body .btn-top a {
 
 .bg-index-pkg {
   position: relative;
-  background-image: url(/images/banner.svg);
+  background-image: url(../images/banner.svg);
   background-repeat: no-repeat;
   background-position: 90% 0;
 }
