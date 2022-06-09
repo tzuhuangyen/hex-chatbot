@@ -71,9 +71,6 @@ var swiper = new Swiper("#comment-swiper", {
   },
   /* 螢幕寬度大於等於 375px 時切換為 1 欄 */
   breakpoints: {
-    768: {
-      slidesPerView: 3,
-    },
     375: {
       slidesPerView: 1,
     },
