@@ -894,7 +894,7 @@ header .banner-text h2 {
   margin-right: 16px;
 }
 .pkg .pkg-cards .pkg-card .btn-try {
-  margin: 1px 139px 32px 62px;
+  margin: 35px 109px 32px 102px;
 }
 
 @media (max-width: 375px) {
@@ -937,6 +937,9 @@ header .banner-text h2 {
   .pkg .pkg-cards .pkg-card p {
     margin-bottom: 24px;
   }
+  .pkg .pkg-cards .pkg-card .btn-try {
+    margin: 0 0px 24px 83px;
+  }
   .pkg .pkg-cards .pkg-card .pkgNo {
     margin-bottom: 27px;
   }
@@ -965,9 +968,6 @@ header .banner-text h2 {
   }
   .pkg .pkg-cards .pkg-info li a .check {
     margin-right: 16px;
-  }
-  .pkg .pkg-cards .btn2 {
-    margin: 0 0px 24px 83px;
   }
 }
 .change_color {
