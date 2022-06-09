@@ -118,6 +118,13 @@ a {
   font-size: 18px;
 }
 
+.btn-pkg {
+  color: #ffffff;
+  background-color: #ff5d50;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 pz-ab {
   position: absolute;
 }
@@ -421,12 +428,6 @@ body .btn-top a {
   height: 40px;
   vertical-align: middle;
 }
-.bg-index .logo .btn-pkg {
-  color: #ffffff;
-  background-color: #ff5d50;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
 .bg-index .banner {
   margin-bottom: 217px;
 }
@@ -719,6 +720,9 @@ body .btn-top a {
     margin-right: 20px;
     margin-bottom: 24px;
   }
+  .review ul .review-card .rwd-card {
+    max-width: 335px;
+  }
   .review ul .review-card .review-info {
     padding-left: 16px;
     padding-right: 16px;
@@ -790,8 +794,8 @@ body .btn-top a {
 }
 @media (max-width: 375px) {
   .bg-index-pkg {
-    background-image: url(/images/banner_sm.svg);
-    background-position: 0 80px;
+    background-image: url(../images/banner_sm.svg);
+    background-position: 0 100px;
   }
 }
 
@@ -811,6 +815,11 @@ header .banner-text h2 {
 @media (max-width: 375px) {
   header {
     margin-bottom: 60px;
+    padding-bottom: 8px;
+  }
+  header img {
+    width: 130px;
+    height: 24px;
   }
   header .banner-text {
     margin-top: 48px;
@@ -866,15 +875,15 @@ header .banner-text h2 {
 .pkg .pkg-cards .pkg-card .pkgNo .userNo .user-number sub {
   font-size: 12px;
 }
+.pkg .pkg-cards .pkg-card .pkgNo .userNo .total {
+  font-size: 29px;
+  color: #000;
+}
 .pkg .pkg-cards .pkg-card .pkgNo .userNo .basic-m, .pkg .pkg-cards .pkg-card .pkgNo .userNo .stand-m {
   font-size: 32px;
 }
 .pkg .pkg-cards .pkg-card .pkgNo .userNo .basic-m sub, .pkg .pkg-cards .pkg-card .pkgNo .userNo .stand-m sub {
   font-size: 12px;
-}
-.pkg .pkg-cards .pkg-card .pkgNo .total {
-  font-size: 29px;
-  color: #000;
 }
 .pkg .pkg-cards .pkg-card .pkg-info a {
   color: #000;
@@ -885,7 +894,7 @@ header .banner-text h2 {
   margin-right: 16px;
 }
 .pkg .pkg-cards .pkg-card .btn-try {
-  margin: 32px 139px 32px 109px;
+  margin: 1px 139px 32px 62px;
 }
 
 @media (max-width: 375px) {
@@ -915,6 +924,8 @@ header .banner-text h2 {
     max-width: 100%;
     border-radius: 12px;
     box-shadow: 8px 2px 10px rgba(0, 0, 0, 0.0784313725);
+    padding-right: -16px;
+    padding-left: -16px;
   }
   .pkg .pkg-cards .pkg-card h3 {
     font-size: 24px;
@@ -931,27 +942,31 @@ header .banner-text h2 {
   }
   .pkg .pkg-cards .pkg-card .pkgNo .userNo {
     height: 89px;
+    width: 139px;
+    padding: 12px 8px;
   }
-  .pkg .pkg-cards .pkg-card .pkgNo .userNo .basic-m span {
+  .pkg .pkg-cards .pkg-card .pkgNo .userNo span {
     font-size: 12px;
   }
-  .pkg .pkg-cards .pkg-card .pkgNo .userNo .basic-m .user-number {
+  .pkg .pkg-cards .pkg-card .pkgNo .userNo .user-number, .pkg .pkg-cards .pkg-card .pkgNo .userNo .basic-m {
+    width: 95px;
+    height: 90px;
     font-size: 28px;
   }
-  .pkg .pkg-cards .pkg-card .pkgNo .total {
+  .pkg .pkg-cards .pkg-card .total {
     margin-right: 6px;
     margin-left: 6px;
   }
-  .pkg .pkg-cards .pkg-card .pkg-info {
+  .pkg .pkg-cards .pkg-info {
     margin-bottom: 35px;
   }
-  .pkg .pkg-cards .pkg-card .pkg-info li a {
+  .pkg .pkg-cards .pkg-info li {
     font-size: 14px;
   }
-  .pkg .pkg-cards .pkg-card .pkg-info li a .check {
+  .pkg .pkg-cards .pkg-info li a .check {
     margin-right: 16px;
   }
-  .pkg .pkg-cards .pkg-card .btn2 {
+  .pkg .pkg-cards .btn2 {
     margin: 0 0px 24px 83px;
   }
 }

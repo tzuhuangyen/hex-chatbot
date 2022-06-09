@@ -97,12 +97,7 @@ body{
                      height: 40px;
                      vertical-align: middle;
                  }
-                .btn-pkg{
-                 color: #ffffff;
-                 background-color:#ff5d50;
-                 margin-top: 8px;
-                 margin-bottom: 8px;
-                } 
+                
             }     
             .banner{
            
@@ -368,7 +363,7 @@ body{
                 height: 304px;
                 margin-top: 56px ;
                 margin-right:16px;
-
+       
                 
                 .review-info{
                     
@@ -428,13 +423,16 @@ body{
                      margin-bottom: 32px;}
                  ul{
                    
-                
+                  
+                      
                    .review-card{
                     padding: auto;
                     margin-left: 13px;
                     margin-right: 20px;
                     margin-bottom: 24px;
-               
+                    .rwd-card{
+                        max-width:335px;}
+                   
                     .review-info{
                      padding-left: 16px;
                      padding-right: 16px;
@@ -444,7 +442,7 @@ body{
                     }
                    }
             }}
-    }
+      }
     
     .footer-banner{
       background-image: url(../images/home_footer.svg);
@@ -516,15 +514,10 @@ body{
         
       
         @media(max-width:375px){
-            background-image: url(/images/banner_sm.svg);
-            background-position: 0 80px;
+            background-image: url(../images/banner_sm.svg);
+            background-position: 0 100px;
             }
-        
-     
-        
-        
-
-    }
+}
     
 
 header{
@@ -542,6 +535,11 @@ header{
  @media(max-width:375px){
     header{
         margin-bottom: 60px;
+        padding-bottom:8px;
+        img{
+            width: 130px;
+    height: 24px;
+        }
         .banner-text{
         margin-top: 48px;
         height: 430px;
@@ -601,16 +599,17 @@ header{
                        font-size: 12px;
                    }
                }
-               .basic-m,.stand-m{
+              
+              .total{
+                font-size: 29px;
+                color: #000;
+              }
+              .basic-m, .stand-m{
                 font-size: 32px;
                 sub{
                     font-size: 12px;
                 }
                }
-              }
-              .total{
-                font-size: 29px;
-                color: #000;
               }
            }
            .pkg-info{
@@ -625,13 +624,15 @@ header{
                  
            }
            .btn-try{
-               margin: 32px 139px 32px 109px;
+            margin: 1px 139px 32px 62px;
+        }
+        
+        ;
            }
                
         }
     }
-    }
-   
+
    @media(max-width:375px){
     .pkg{
         margin-bottom: 60px;
@@ -660,6 +661,9 @@ header{
             max-width: 100%;
         border-radius: 12px;
         box-shadow: 8px 2px 10px #00000014;
+        padding-right: -16px;
+        padding-left: -16px;
+
        
         h3{
         font-size: 24px;
@@ -677,11 +681,14 @@ header{
           
            .userNo{
                height: 89px;
-               .basic-m{
-                span{
+               width: 139px;
+               padding: 12px 8px;
+               span{
                  font-size: 12px;
                 }
-               .user-number{
+               .user-number, .basic-m{
+                   width: 95px;
+                   height: 90px;
                    font-size: 28px;
                  
                }
@@ -699,8 +706,9 @@ header{
         .pkg-info{
            margin-bottom: 35px;
            li{
+            font-size: 14px;
                a{
-                   font-size: 14px;
+                  
                    .check{
                        margin-right: 16px;
                    }
@@ -712,7 +720,7 @@ header{
         }
          }
      } }
-}
+
 
 
 // Q & A Q & A Q & A Q & A Q & A Q & A Q & A Q & A Q & A Q & A Q & A Q & A
